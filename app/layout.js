@@ -1,5 +1,6 @@
 import TitlePage from '@/components/TitlePage'
 import { Inter } from 'next/font/google'
+import './global.css'
 
 export const metadata = {
   title: 'Ohlala - Estudio de belleza',
@@ -17,7 +18,9 @@ export default function RootLayout({ children }) {
     <html lang="es">
       <body className={inter.className}>
         <TitlePage />
+        <div className='content-post'>
         {children}
+        </div>
       </body>
     </html>
   )

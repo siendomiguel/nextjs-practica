@@ -1,6 +1,6 @@
 function LoadingPage() {
   return (
-    <h1>loading ...</h1>
+    <h1>Caragando listado de publicaciones . . .</h1>
   )
 }
 
