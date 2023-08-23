@@ -1,7 +1,10 @@
+import LastPosts from '@/components/LastPosts'
+
 export default function hello() {
   return (
     <div>
-      <h1>Hello, welcome to my home</h1>
+      <h1>Noticias de interes</h1>
+      <LastPosts />
     </div>
   )
 }
